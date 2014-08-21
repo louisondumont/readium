@@ -55,7 +55,7 @@ body {
   font-feature-settings: "liga", "dlig"; }
 
 .logo-readium {
-  position: fixed;
+  position: absolute;
   left: 50%;
   margin-left:-60px;
   top: 165px;
