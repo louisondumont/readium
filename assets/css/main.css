@@ -176,6 +176,7 @@ body {
     .content article:last-child {
       border-bottom: 0px; }
     .content article .post-title {
+      font-family: 'Raleway', sans-serif;
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
