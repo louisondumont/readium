@@ -545,6 +545,7 @@ body {
     border: 0px solid #dddddd;
     border-top: 1px solid #dddddd; }
   .post .bottom-teaser .isLeft {
+    margin-bottom: 20px;
     float: left;
     width: 47%;
     -webkit-box-sizing: border-box;
