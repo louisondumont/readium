@@ -15,7 +15,6 @@
 </div>
 
 <header class="blog-header">
-    {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}" style="background-image: url({{@blog.logo}})">{{@blog.title}}</a>{{/if}}
     <h1 class="blog-title">{{@blog.title}}</h1>
     <h2 class="blog-description">{{@blog.description}}</h2>
 </header>
@@ -42,6 +41,8 @@
 
     }(jQuery));
 </script>
+
+<a href="{{@blog.url}}" class="logo-left"><span class="logo"></span></a>
 
 {{! The main content area on the homepage }}
 <main class="content" role="main">
